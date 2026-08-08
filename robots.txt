@@ -1,4 +1,31 @@
 User-agent: *
 Allow: /
+Disallow: /thank-you.html
+
+# AI search / citation crawlers (real-time browsing and answer citation)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# AI model-training crawlers (separate from search/citation use above)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
 
 Sitemap: https://vrtg.io/sitemap.xml
