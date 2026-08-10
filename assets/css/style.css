@@ -149,7 +149,7 @@ header.site-header {
 }
 .nav-row {
   display: flex; align-items: center; justify-content: space-between;
-  height: 68px;
+  height: 84px;
 }
 .brand-mark { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
 .brand-mark img { height: 26px; width: auto; }
@@ -192,7 +192,7 @@ nav.primary-nav a:hover { color: var(--white); }
   position: relative;
   min-height: 100vh;
   display: flex; align-items: center;
-  padding-top: 68px;
+  padding-top: 84px;
   overflow: hidden;
 }
 .hero-grid-lines {
